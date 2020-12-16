@@ -1,0 +1,16 @@
+.editableNode {
+	position: relative;
+	cursor: pointer;
+
+	&:hover {
+		border: 1px dashed;
+	}
+
+	.label {
+		position: absolute
+	}
+
+	&.editing {
+		border: 1px solid blue
+	}
+}
