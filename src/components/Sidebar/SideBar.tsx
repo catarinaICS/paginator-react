@@ -1,13 +1,13 @@
 import React from "react";
-import EditComponentMenu from "./EditComponent/EditComponentMenu";
-import Menu from "./Menu";
+import EditComponentMenu from "components/Sidebar/EditComponentMenu/EditComponentMenu";
+import AddItemsMenu from "./AddItemsMenu";
 
 const SideBar = () => {
   return (
     <div className="sideBar">
       <EditComponentMenu />
       <div className="addItemsMenu">
-        <Menu />
+        <AddItemsMenu />
       </div>
     </div>
   );

@@ -1,3 +1,35 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.sideBar {
+	position: fixed;
+	display: flex;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+
+	.addItemsMenu {
+		display: flex;
+		align-items: center;
+	}
+
+	.editComponentSelect {
+		width: 100%;
+		
+		.MuiOutlinedInput-input {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	}
+
+	.editComponentInputLabel {
+		color: rgba(0, 0, 0, 0.54);
+	}
+
+	.formGrid {
+		display: grid;
+		grid-row-gap: 16px;
+	}
+}
