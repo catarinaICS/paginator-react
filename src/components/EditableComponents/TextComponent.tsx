@@ -49,8 +49,6 @@ const TextComponent: UserComponent<TextComponentType> = ({
 export default TextComponent;
 
 TextComponent.craft = {
-  displayName: "Text",
-  name: "Text",
   props: defaultTextProps,
   //@ts-expect-error
   custom: {
